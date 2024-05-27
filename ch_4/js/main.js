@@ -15,4 +15,11 @@ $('document').ready(function () {
             $button.after('<span>Сообщение отправлено. Мы свяжемся с вами в ближайшее время</span>')
         }
     })
+    $('#sign-btn').on('click', function (e) {
+        $(e.currentTarget).closest('ul').hide({
+            duration: 800,
+
+        });
+        $('#signin').fadeIn('fast');
+    })
 });
