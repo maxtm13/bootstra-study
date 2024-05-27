@@ -1,5 +1,30 @@
+body {
+    padding-top: 3.6em;
+}
+
+#navbar-menu {
+    margin-right: 1rem;
+}
+
+nav .btn-group {
+    margin: 0 2rem 0 0;
+}
+
+nav .input-group {
+    margin-top: 0.8rem;
+}
+
+@media (max-width: 48em) {
+    nav .btn-group {
+        position: absolute;
+        top: 0;
+        right: 4em;
+    }
+}
+
 header {
     background-color: #f8f8f8;
+    display: none;
 }
 
 header ul {
@@ -55,6 +80,7 @@ section#features {
     background-color: #eef2f5;
     border-top: 0.1rem solid #e9e9e9;
     border-bottom: 0.1rem solid #e9e9e9;
+
 }
 
 section#features * {
@@ -65,7 +91,25 @@ section#features * {
 section#features .feature {
     padding-top: 2rem;
     padding-bottom: 4rem;
-    text-align: center;
+    /* text-align: center; */
+    padding-left: 8rem;
+}
+
+section#features .glyphicon {
+    font-size: 2rem;
+}
+
+section#features .glyphicon-heart {
+    color: #e04c4c;
+}
+
+section#features .feature-tag {
+    max-width: 10.7em;
+    display: inline-block;
+    text-align: left;
+    margin-left: 1.5rem;
+    font-size: 1.7rem;
+
 }
 
 section#pricing h3.price-headline {
@@ -181,4 +225,23 @@ section#team li {
 section#team h5 {
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.wrapping-flex {
+    display: flex;
+    background-color: #CCC;
+    height: 12rem;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.wrapping-flex div {
+    background-color: #eca45a;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+.wrapping-flex .item2 {
+    align-self: center;
+    height: 5rem;
 }
