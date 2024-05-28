@@ -1,0 +1,83 @@
+body {
+    padding-top: 3.6em;
+}
+
+.navbar-brand img {
+    height: 100%;
+}
+
+.navbar-default {
+    background-color: #2f92ca;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    transition: all 150ms ease-in-out;
+}
+
+.navbar-default .nav.navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #fff;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: transparent;
+    color: #f3f3f3;
+    padding-bottom: 0.62em;
+    border-bottom: 0.45em solid #f3f3f3;
+}
+
+nav form#search {
+    float: right;
+    padding: 0.5em;
+}
+
+nav form#search .glyphicon-search {
+    z-index: 99;
+    position: absolute;
+    right: 0.7em;
+    top: 50%;
+    margin-top: -0.44em;
+}
+
+nav form#search .input-group .form-control {
+    border-radius: 0.25em;
+}
+
+#nav-options {
+    margin: 0.5em;
+}
+
+#nav-options button.thumbnail {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-options img {
+    max-height: 2.3em;
+    border-radius: 0.3em;
+}
+
+#tweet {
+    margin: 0.5em;
+}
+
+.navbar-nav .badge {
+    color: #2f92ca;
+    background-color: #fff;
+    font-size: 0.7em;
+    padding: 0.27rem 0.55rem 0.2rem 0.4rem;
+    position: absolute;
+    left: 0.37rem;
+    top: 0.7rem;
+    z-index: 99;
+    border: 0.2rem solid #f3f3f3;
+
+}
