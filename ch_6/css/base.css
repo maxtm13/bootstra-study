@@ -256,3 +256,33 @@ ul#feed .action-list .retweet-count {
     padding-left: 0.2em;
     font-weight: bold;
 }
+
+#who-follow li {
+    margin-bottom: 2em;
+}
+
+#who-follow li:last-child {
+    margin-bottom: 0;
+}
+
+#who-follow li img {
+    width: 26%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2%;
+
+}
+
+#who-follow li .info {
+    width: 68%;
+    display: inline-block;
+}
+
+#who-follow li .info strong {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#who-follow li .info .glyphicon {
+    color: #2f92ca;
+}
