@@ -283,6 +283,19 @@ ul#feed .action-list .retweet-count {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 #who-follow li .info .glyphicon {
     color: #2f92ca;
+}
+
+.card .card-footer {
+    border-radius: 0 0 0.4rem 0.4rem;
+    padding: 0.75rem 1.25rem;
+    background-color: #f5f5f5;
+    border-top: 0.1em solid #e5e5e5;
+    color: #4e5665;
+}
+
+#app-info {
+    margin-top: 2rem;
 }
